@@ -67,11 +67,11 @@ function App() {
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight mb-6">
               Шенгенская виза<br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-blue-500">во Францию</span><br />
-              без стресса
+              без стресса и нервов
             </h1>
             <p className="text-lg md:text-xl text-gray-600 mb-8 max-w-lg">
               Помогу собрать документы, заполнить анкету и пройти все этапы оформления визы. 
-              Более 500 успешных случаев за 4 года работы.
+              Съела на шенгене не одну собаку — более 500 успешных случаев за 4 года работы.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <a href="#contact" className="bg-blue-700 text-white px-8 py-4 rounded-full text-lg font-medium hover:bg-blue-800 transition-all hover:shadow-lg hover:shadow-blue-200">
@@ -80,6 +80,11 @@ function App() {
               <a href="#services" className="border-2 border-gray-200 text-gray-700 px-8 py-4 rounded-full text-lg font-medium hover:border-blue-300 hover:text-blue-700 transition-all">
                 Узнать подробнее
               </a>
+            </div>
+            <div className="bg-white/80 backdrop-blur-sm border border-gray-100 rounded-2xl p-4 mb-8 max-w-lg">
+              <p className="text-gray-700 text-sm">
+                <span className="font-semibold">💡 Могу объяснить за любой шенген и визу</span> — от первого заграничного паспорта до мультивизы на 5 лет. Спрашивайте что угодно!
+              </p>
             </div>
             <div className="flex items-center gap-8 mt-10 justify-center md:justify-start">
               <div className="text-center">
@@ -103,10 +108,10 @@ function App() {
               <div className="absolute inset-0 bg-gradient-to-br from-blue-600 to-blue-800 rounded-3xl rotate-6 opacity-20"></div>
               <div className="absolute inset-0 bg-gradient-to-br from-blue-100 to-blue-200 rounded-3xl -rotate-3"></div>
               <div className="relative bg-white rounded-3xl shadow-xl p-8 h-full flex flex-col items-center justify-center">
-                <div className="text-6xl mb-4">🗼</div>
+                <div className="text-6xl mb-4">🏛️</div>
                 <div className="text-center">
-                  <p className="text-gray-800 font-semibold text-lg">Париж ждёт вас!</p>
-                  <p className="text-gray-500 text-sm mt-2">Оформлю визу быстро и без ошибок</p>
+                  <p className="text-gray-800 font-semibold text-lg">Ним ждёт вас!</p>
+                  <p className="text-gray-500 text-sm mt-2">Древний Рим на юге Франции</p>
                 </div>
                 <div className="mt-6 flex items-center gap-2 bg-green-50 text-green-700 px-4 py-2 rounded-full text-sm">
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
@@ -114,6 +119,7 @@ function App() {
                   </svg>
                   <span>Средний срок — 5-7 дней</span>
                 </div>
+                <div className="mt-3 text-xs text-gray-400 italic">* Париж тоже, конечно 🗼</div>
               </div>
             </div>
           </div>
@@ -128,8 +134,8 @@ function App() {
               <div className="relative">
                 <div className="w-64 h-64 md:w-80 md:h-80 bg-gradient-to-br from-blue-100 to-blue-200 rounded-3xl mx-auto flex items-center justify-center">
                   <div className="text-center">
-                    <div className="text-7xl mb-2">👩‍💼</div>
-                    <p className="text-blue-700 font-semibold">Арина</p>
+                    <div className="text-7xl mb-2">👩‍🎨</div>
+                    <p className="text-blue-700 font-semibold">Арина, 26</p>
                     <p className="text-blue-500 text-sm">Визовый консультант</p>
                   </div>
                 </div>
@@ -137,6 +143,12 @@ function App() {
                   <div className="flex items-center gap-2">
                     <span className="text-yellow-500">⭐⭐⭐⭐⭐</span>
                     <span className="text-sm text-gray-600">5.0</span>
+                  </div>
+                </div>
+                <div className="absolute -bottom-4 -left-4 bg-white shadow-lg rounded-2xl px-4 py-3 hidden md:block">
+                  <div className="flex items-center gap-2">
+                    <span className="text-2xl">🏓</span>
+                    <span className="text-sm text-gray-600">Настольный теннис</span>
                   </div>
                 </div>
               </div>
@@ -147,37 +159,43 @@ function App() {
                 Привет! Я Арина — ваш проводник в мир французских виз
               </h2>
               <p className="text-gray-600 text-lg mb-4">
-                Уже 4 года я помогаю путешественникам получать шенгенские визы во Францию. 
-                За это время я изучила все нюансы процесса, знаю типичные ошибки и способы их избежать.
+                Мне 26, и я уже 4 года помогаю путешественникам получать шенгенские визы во Францию. 
+                За это время я съела на этом не одну собаку — знаю все нюансы, типичные ошибки и способы их избежать.
+              </p>
+              <p className="text-gray-600 text-lg mb-4">
+                Обожаю французский город <span className="font-semibold text-blue-700">Ним</span> — этот древний римский город 
+                с его амфитеатром и атмосферой юга Франции стал для меня вторым домом. 
+                Именно там я поняла, что хочу помогать другим открывать для себя Францию.
               </p>
               <p className="text-gray-600 text-lg mb-6">
-                Я сама обожаю Францию и побывала там более 15 раз. Знаю, как важно получить визу 
-                вовремя, чтобы не сорвать долгожданную поездку. Поэтому работаю быстро, чётко и с душой.
+                Когда не занимаюсь визами, рисую картины (изобразительное искусство — моя страсть!) 
+                и играю в настольный теннис 🏓. А ещё могу уработать вертушечкой на раз-два, 
+                если клиент будет неласков и невежлив 😄
               </p>
               <div className="grid grid-cols-2 gap-4">
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center">
-                    <span className="text-blue-600">✓</span>
+                    <span className="text-blue-600">🎨</span>
                   </div>
-                  <span className="text-gray-700">Сертифицированный консультант</span>
+                  <span className="text-gray-700">Художница</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center">
-                    <span className="text-blue-600">✓</span>
+                    <span className="text-blue-600">🏓</span>
                   </div>
-                  <span className="text-gray-700">Знание французского</span>
+                  <span className="text-gray-700">Теннисистка</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center">
-                    <span className="text-blue-600">✓</span>
+                    <span className="text-blue-600">🏛️</span>
                   </div>
-                  <span className="text-gray-700">Личный опыт 15+ поездок</span>
+                  <span className="text-gray-700">Знаю Ним как свои 5 пальцев</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 bg-blue-50 rounded-lg flex items-center justify-center">
-                    <span className="text-blue-600">✓</span>
+                    <span className="text-blue-600">🥊</span>
                   </div>
-                  <span className="text-gray-700">Индивидуальный подход</span>
+                  <span className="text-gray-700">Мастер вертушечек</span>
                 </div>
               </div>
             </div>
@@ -364,8 +382,8 @@ function App() {
                 {[...Array(5)].map((_, i) => <span key={i} className="text-yellow-400">★</span>)}
               </div>
               <p className="text-gray-600 mb-6">
-                «Арина — настоящий профессионал! Собрала все документы за 3 дня, заполнила анкету без единой ошибки. 
-                Визу дали на 6 месяцев. Очень рекомендую!»
+                «Арина — огонь! 🔥 Собрала все документы за 3 дня, заполнила анкету без единой ошибки. 
+                Визу дали на 6 месяцев. А ещё рассказала кучу интересного про Ним — теперь тоже хочу туда!»
               </p>
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center text-blue-700 font-bold">М</div>
@@ -382,7 +400,7 @@ function App() {
               </div>
               <p className="text-gray-600 mb-6">
                 «До Арины уже получала отказ. Она разобралась в ситуации, помогла с апелляцией — и вуаля, виза в паспорте! 
-                Спасибо за терпение и профессионализм.»
+                Кстати, я сначала написала ей немного грубо, но она всё равно помогла. Больше так не буду 😅»
               </p>
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-pink-100 rounded-full flex items-center justify-center text-pink-700 font-bold">А</div>
@@ -399,7 +417,7 @@ function App() {
               </div>
               <p className="text-gray-600 mb-6">
                 «Обращался всей семьёй — жена, двое детей. Арина учла все нюансы, подготовила идеальный пакет документов. 
-                Визы получили за неделю. Супер!»
+                Визы получили за неделю. А ещё она нарисовала дочке картинку — талант!»
               </p>
               <div className="flex items-center gap-3">
                 <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center text-green-700 font-bold">Д</div>
@@ -447,6 +465,14 @@ function App() {
             <FAQItem 
               question="Можно ли получить мультивизу?"
               answer="Да, при правильной подаче документов можно получить мультивизу на 1-5 лет. Я помогу подготовить пакет так, чтобы максимизировать шансы на длительную визу."
+            />
+            <FAQItem 
+              question="А правда, что вы можете уработать вертушечкой?"
+              answer="Абсолютная правда! 🥋 Но только если клиент будет неласков и невежлив. А с нормальными людьми я очень милая и добрая. Так что ведите себя хорошо, и всё будет отлично! 😊"
+            />
+            <FAQItem 
+              question="Почему именно Ним, а не Париж?"
+              answer="Париж прекрасен, но Ним — это моя любовь! Древнеримский амфитеатр, который до сих пор используется для корриды и концертов, уютные улочки, proximity к морю и Провансу. Это настоящая жемчужина юга Франции, которую незаслуженно обходят туристы. Обязательно покажу вам этот город, если захотите!"
             />
           </div>
         </div>
